@@ -1,0 +1,46 @@
+# This .gitignore file is for a Unity project.
+# Based on https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# ===============================================================================
+# Unity generated files
+# ===============================================================================
+
+# Unity-generated temporary files
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Asset meta files
+# Note: Unity generates these files automatically, and they are essential for your
+# project to work correctly across different machines. Do not ignore them.
+# The following lines are just for reference.
+# *.meta
+
+# Cache files
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.suo
+*.sln.docstates
+
+# Generated files by Unity
+*.unityproj
+*.booproj
+*.pidb
+*.pidb.meta
+*.pdb
+*.mdb
+
+# Packages
+Packages/
+Assets/Plugins/
+Assets/PackageCache/
+
+# Visual Studio Code
+.vscode/
