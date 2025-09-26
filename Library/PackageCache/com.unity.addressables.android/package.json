@@ -1,0 +1,32 @@
+{
+  "name": "com.unity.addressables.android",
+  "displayName": "Addressables for Android",
+  "version": "1.0.6",
+  "unity": "2023.2",
+  "description": "The Addressables for Android package is designed to work in conjunction with the Addressables package to support Play Asset Delivery and provides tools to pack Addressables groups into Android asset packs. This way you can take full advantage of asset pack based dynamic delivery, including Texture Compression Targeting support when it's enabled for your project.",
+  "samples": [
+    {
+      "displayName": "Play Asset Delivery sample",
+      "description": "Contains complete set of assets to demonstrate usage of the Addressable Play Asset Delivery support. This sample is intended to be imported into an empty Unity project with Unity UI package installed and which uses built-in render pipeline.",
+      "path": "Samples~/PlayAssetDeliverySample",
+      "interactiveImport": true
+    }
+  ],
+  "dependencies": {
+    "com.unity.modules.androidjni": "1.0.0",
+    "com.unity.addressables": "2.3.16"
+  },
+  "_upm": {
+    "changelog": "* Loading Addressable assets synchronously can now generate an exception. For more information, refer to the documentation.\n* Updated `com.unity.addressables` dependency up to v2.3.16."
+  },
+  "upmCi": {
+    "footprint": "8af7ebdf82945cb347dd6082b84261d0bbaef7d4"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.addressables.android@1.0/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.addressables.android.git",
+    "type": "git",
+    "revision": "5da94efe837d0301f523ed89d3f7aae8ce31a0fe"
+  },
+  "_fingerprint": "c4cd27a88bf0376292365f9cc2f966abec1b9367"
+}
